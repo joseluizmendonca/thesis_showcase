@@ -1,0 +1,488 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{bundesumweltministeriumsWasSindEFuels}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=588b5ddb85f96def322bde04e9dc8598}{%
+           family={Bundesumweltministeriums},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{588b5ddb85f96def322bde04e9dc8598}
+      \strng{fullhash}{588b5ddb85f96def322bde04e9dc8598}
+      \strng{fullhashraw}{588b5ddb85f96def322bde04e9dc8598}
+      \strng{bibnamehash}{588b5ddb85f96def322bde04e9dc8598}
+      \strng{authorbibnamehash}{588b5ddb85f96def322bde04e9dc8598}
+      \strng{authornamehash}{588b5ddb85f96def322bde04e9dc8598}
+      \strng{authorfullhash}{588b5ddb85f96def322bde04e9dc8598}
+      \strng{authorfullhashraw}{588b5ddb85f96def322bde04e9dc8598}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Was sind E-Fuels?}
+      \field{howpublished}{https://www.bundesumweltministerium.de/FA1844}
+      \field{journaltitle}{BMUKN}
+      \field{langid}{ngerman}
+      \field{shorttitle}{{Was sind E-Fuels?}}
+      \field{title}{{Was sind E-Fuels?}}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/8HXBQ3K2/was-sind-e-fuels.html
+      \endverb
+    \endentry
+    \entry{kaufmannArbeitsheftVerbrennungsmotoren}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=94d4b4a05461d2e27a5f31f0ccd57ef4}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \strng{fullhash}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \strng{fullhashraw}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \strng{bibnamehash}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \strng{authorbibnamehash}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \strng{authornamehash}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \strng{authorfullhash}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \strng{authorfullhashraw}{94d4b4a05461d2e27a5f31f0ccd57ef4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Arbeitsheft Zu {{Verbrennungsmotoren}}}
+      \field{type}{Lecture {{Script}}}
+    \endentry
+    \entry{kerscherFasterSwitchingLarge2022}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=89462fa46cb8bbd0161613b3d00f8cab}{%
+           family={Kerscher},
+           familyi={K\bibinitperiod},
+           given={Timm},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{89462fa46cb8bbd0161613b3d00f8cab}
+      \strng{fullhash}{89462fa46cb8bbd0161613b3d00f8cab}
+      \strng{fullhashraw}{89462fa46cb8bbd0161613b3d00f8cab}
+      \strng{bibnamehash}{89462fa46cb8bbd0161613b3d00f8cab}
+      \strng{authorbibnamehash}{89462fa46cb8bbd0161613b3d00f8cab}
+      \strng{authornamehash}{89462fa46cb8bbd0161613b3d00f8cab}
+      \strng{authorfullhash}{89462fa46cb8bbd0161613b3d00f8cab}
+      \strng{authorfullhashraw}{89462fa46cb8bbd0161613b3d00f8cab}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Faster {{Switching}} of {{Large Inductive Loads}} in {{Digital Output Modules}}}
+      \field{type}{Application {{Note}}}
+      \field{year}{2022}
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/QE2342C4/Kerscher - 2022 - Faster Switching of Large Inductive Loads in Digital Output Modules.pdf
+      \endverb
+    \endentry
+    \entry{linearProductsDatasheet}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=d6024deeb9b364f5da2b7b5f4940d3cf}{%
+           family={{Linear Products}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \strng{fullhash}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \strng{fullhashraw}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \strng{bibnamehash}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \strng{authorbibnamehash}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \strng{authornamehash}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \strng{authorfullhash}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \strng{authorfullhashraw}{d6024deeb9b364f5da2b7b5f4940d3cf}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The automotive industry is faced with increasingly strict environmental regula- tions which require that automotive module designs include real-time moni- toring and off-line fault isolation. These requirements demand that protection and fault diagnostics be present in the module to help monitor emission levels and maintain system reliability. One area that is very sensitive to these requirements is the automotive powertrain. With today's highly specialized fuel systems, fuel injector drive is of key interest}
+      \field{title}{Autmotive {{Fuel Injector Control}} Using {{Power}}+ {{Control}} with {{Power}}+ {{Arrays Devices}}}
+      \field{type}{Application {{Note}}}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/7BCK693B/slit112.pdf
+      \endverb
+    \endentry
+    \entry{p.blairDesignSimulationFour1999}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=3817a87252adc7b97ff39c85abc12446}{%
+           family={P.\bibnamedelimi Blair},
+           familyi={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAE International}%
+      }
+      \strng{namehash}{3817a87252adc7b97ff39c85abc12446}
+      \strng{fullhash}{3817a87252adc7b97ff39c85abc12446}
+      \strng{fullhashraw}{3817a87252adc7b97ff39c85abc12446}
+      \strng{bibnamehash}{3817a87252adc7b97ff39c85abc12446}
+      \strng{authorbibnamehash}{3817a87252adc7b97ff39c85abc12446}
+      \strng{authornamehash}{3817a87252adc7b97ff39c85abc12446}
+      \strng{authorfullhash}{3817a87252adc7b97ff39c85abc12446}
+      \strng{authorfullhashraw}{3817a87252adc7b97ff39c85abc12446}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-7680-0440-3}
+      \field{month}{8}
+      \field{title}{Design and {{Simulation}} of {{Four Stroke Engines}}}
+      \field{year}{1999}
+    \endentry
+    \entry{shawWeberMPE8502014}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d376cc7a47725e3585f349aa19e5a8e0}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d376cc7a47725e3585f349aa19e5a8e0}
+      \strng{fullhash}{d376cc7a47725e3585f349aa19e5a8e0}
+      \strng{fullhashraw}{d376cc7a47725e3585f349aa19e5a8e0}
+      \strng{bibnamehash}{d376cc7a47725e3585f349aa19e5a8e0}
+      \strng{authorbibnamehash}{d376cc7a47725e3585f349aa19e5a8e0}
+      \strng{authornamehash}{d376cc7a47725e3585f349aa19e5a8e0}
+      \strng{authorfullhash}{d376cc7a47725e3585f349aa19e5a8e0}
+      \strng{authorfullhashraw}{d376cc7a47725e3585f349aa19e5a8e0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{It's the subject of conversations happening all over the planet: Why aren't more manufacturers producing new standups? Besides Yamaha WaveRunners' continual production of the same 701cc-powered two-stroke SuperJet that has remained practically untouched for nearly a decade, the only outlet for a new standup has come from the wellspring of new aftermarket hull and engine [{\dots}]}
+      \field{howpublished}{https://watercraftjournal.com/coming-soon-ski-near-weber-mpe-850-turbo-engine/}
+      \field{journaltitle}{The Watercraft Journal {|} the best resource for JetSki, WaveRunner, and SeaDoo enthusiasts and most popular Personal WaterCraft site in the world!}
+      \field{langid}{american}
+      \field{month}{3}
+      \field{shorttitle}{Coming {{Soon}} to a {{Ski Near You}}}
+      \field{title}{Weber {{MPE}} 850 Images}
+      \field{urlday}{2}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/MGBPGP57/coming-soon-ski-near-weber-mpe-850-turbo-engine.html
+      \endverb
+    \endentry
+    \entry{stancinReviewAlternativeFuels2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=fca64d6b31d9b036b99594ec33e4456a}{%
+           family={Stančin},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bfe6292ce83f85eede903ea7ac6be59b}{%
+           family={Mikulčić},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=22df5e4442bafe84f1bc860fda8bfb2d}{%
+           family={Duić},
+           familyi={D\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4497d2c841f5e347613c24192bdff45}
+      \strng{fullhash}{dbd47b5b240538e3e3db72f2162b8209}
+      \strng{fullhashraw}{dbd47b5b240538e3e3db72f2162b8209}
+      \strng{bibnamehash}{f4497d2c841f5e347613c24192bdff45}
+      \strng{authorbibnamehash}{f4497d2c841f5e347613c24192bdff45}
+      \strng{authornamehash}{f4497d2c841f5e347613c24192bdff45}
+      \strng{authorfullhash}{dbd47b5b240538e3e3db72f2162b8209}
+      \strng{authorfullhashraw}{dbd47b5b240538e3e3db72f2162b8209}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Transition and decarbonization of the energy sector require the utilisation of new technologies and energy sources. Higher penetration of intermittent renewable energy sources implies the installation of energy storage, to store electricity excess and enhanced system efficiency. These electricity surpluses that will occur more often in the future energy system could be effectively utilized for the production of alternative fuels. Most of the alternative fuels that are considered for future applications are already known chemicals or products, nowadays used for other purposes. Another great advantage of some alternative fuels lies in their possibilities to act as an energy carrier. This feature might be crucial while discussing their utilisation potential and further development. Fuels which can simultaneously be used for power generation and as an energy carrier will have a more important role in the future and are likely to be utilized on a greater scale. Renewable energy source like biomass, on the other hand, is already widely used, and their role in the future system is not questionable. Even though significant increment in biomass consumption raises serious concerns about its sustainability, and seeks for new approaches. In this work, the authors tried to review alternative fuel characteristics, alongside their utilisation and production opportunities. To come up with the optimal solutions, the authors compared various proposed alternative fuels, alongside their advantages and drawbacks with an aim to find the most appropriate role for each fuel.}
+      \field{issn}{1364-0321}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{month}{8}
+      \field{title}{A Review on Alternative Fuels in Future Energy System}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{128}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{109927}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rser.2020.109927
+      \endverb
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/G36SJLXY/S1364032120302185.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364032120302185
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364032120302185
+      \endverb
+      \keyw{Alternative fuel,Biofuel,Carbon capture,Electrolysis,Hydrogen,Pyrolysis,Smart energy system,Variable renewable energy source}
+    \endentry
+    \entry{texasinstrumentsHowDriveResistive2021}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=67e54b1ee931f3f4bddfefa5fbde5fd8}{%
+           family={{Texas Instruments}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{fullhash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{fullhashraw}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{bibnamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorbibnamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authornamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorfullhash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorfullhashraw}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many system designers struggle with the challenges inherent with driving loads that are inductive or capacitive in their nature as they offer specific thermal challenges for both turn-on and turn-off. In addition as loads like LED's become more common they introduce other specific challenges like diagnostics and reliability that must be mitigated when used as an off-board load in a system. This document will analyze each of these loads beginning with a technical discussion of the underlying challenges of the load before diving into the necessity of the robust diagnostics tools that are integrated in TI's Smart High Side Switch solutions. This application note also shares Smart High Side Switch selection considerations for the given load profile}
+      \field{month}{2}
+      \field{title}{How to {{Drive Resistive}}, {{Inductive}}, {{Capacitive}}, and {{Lighting Loads}}}
+      \field{type}{Application {{Report}}}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/UWZTFI2Z/slvae30e.pdf
+      \endverb
+    \endentry
+    \entry{texasinstrumentsLM1949InjectorDrive1995}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=67e54b1ee931f3f4bddfefa5fbde5fd8}{%
+           family={{Texas Instruments}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{fullhash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{fullhashraw}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{bibnamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorbibnamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authornamehash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorfullhash}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \strng{authorfullhashraw}{67e54b1ee931f3f4bddfefa5fbde5fd8}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{{LM1949 Injector Drive Controller}}}
+      \field{type}{Datasheet}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{1995}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/DZFHLZNF/lm1949.pdf
+      \endverb
+    \endentry
+    \entry{textronmotorsgmbhINSTALLATIONMANUAL4Stroke2013}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f748b7e826e75a5ff0064672fa20864}{%
+           family={{Textron Motors GmbH}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f748b7e826e75a5ff0064672fa20864}
+      \strng{fullhash}{4f748b7e826e75a5ff0064672fa20864}
+      \strng{fullhashraw}{4f748b7e826e75a5ff0064672fa20864}
+      \strng{bibnamehash}{4f748b7e826e75a5ff0064672fa20864}
+      \strng{authorbibnamehash}{4f748b7e826e75a5ff0064672fa20864}
+      \strng{authornamehash}{4f748b7e826e75a5ff0064672fa20864}
+      \strng{authorfullhash}{4f748b7e826e75a5ff0064672fa20864}
+      \strng{authorfullhashraw}{4f748b7e826e75a5ff0064672fa20864}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{{{INSTALLATION MANUAL}} 4-{{Stroke Engine MPE}} 850 {{MARINE}}}
+      \field{type}{Manual}
+      \field{year}{2013}
+    \endentry
+    \entry{tianEffectMethanolProduction2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bc421e5244d81fc563e27ed9bfb33faf}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a84866b4900b3fe9a714de1f78dbf282}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=584772c72533075d57997126e203ed7a}{%
+           family={Zhen},
+           familyi={Z\bibinitperiod},
+           given={Xudong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c93118323533d27c70af8f5af3f76d8e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zengbin},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9dfde0abc474bbdfcf4e274fd49a3f9}
+      \strng{fullhash}{022201587509cfcb3daa81c989a699f6}
+      \strng{fullhashraw}{022201587509cfcb3daa81c989a699f6}
+      \strng{bibnamehash}{c9dfde0abc474bbdfcf4e274fd49a3f9}
+      \strng{authorbibnamehash}{c9dfde0abc474bbdfcf4e274fd49a3f9}
+      \strng{authornamehash}{c9dfde0abc474bbdfcf4e274fd49a3f9}
+      \strng{authorfullhash}{022201587509cfcb3daa81c989a699f6}
+      \strng{authorfullhashraw}{022201587509cfcb3daa81c989a699f6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Methanol is a recognized renewable clean energy. In the context of carbon neutrality, it is of great significance to achieve low-carbon production of methanol fuel and its application in internal combustion (IC) engines to reduce emissions. First, this article systematically introduced and evaluated the technical routes and methods of methanol production from carbon dioxide (CO2) and hydrogen (H2). Then it evaluates the feasibility analysis of the application of methanol in IC engines from different aspects, and the impact of the combustion of methanol fuel in IC engines on emissions. Finally, the research direction of methanol fuel in the future is pointed out.}
+      \field{issn}{0016-2361}
+      \field{journaltitle}{Fuel}
+      \field{month}{7}
+      \field{shorttitle}{The Effect of Methanol Production and Application in Internal Combustion Engines on Emissions in the Context of Carbon Neutrality}
+      \field{title}{The Effect of Methanol Production and Application in Internal Combustion Engines on Emissions in the Context of Carbon Neutrality: {{A}} Review}
+      \field{urlday}{29}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{320}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{123902}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.fuel.2022.123902
+      \endverb
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/445T8IU9/S001623612200761X.html
+      \endverb
+      \keyw{Carbon neutral,Emissions,Internal combustion engine,Methanol,Renewable}
+    \endentry
+    \entry{toshibaelectronicdevices&storagecorporationParasiticOscillationRinging}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=7aff602ea2b482e8156b42a09c71c3a5}{%
+           family={{Toshiba Electronic Devices \& Storage Corporation}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7aff602ea2b482e8156b42a09c71c3a5}
+      \strng{fullhash}{7aff602ea2b482e8156b42a09c71c3a5}
+      \strng{fullhashraw}{7aff602ea2b482e8156b42a09c71c3a5}
+      \strng{bibnamehash}{7aff602ea2b482e8156b42a09c71c3a5}
+      \strng{authorbibnamehash}{7aff602ea2b482e8156b42a09c71c3a5}
+      \strng{authornamehash}{7aff602ea2b482e8156b42a09c71c3a5}
+      \strng{authorfullhash}{7aff602ea2b482e8156b42a09c71c3a5}
+      \strng{authorfullhashraw}{7aff602ea2b482e8156b42a09c71c3a5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document describes the causes of and solutions for parasitic oscillation and ringing of power MOSFETs.}
+      \field{title}{Parasitic {{Oscillation}} and {{Ringing}} of {{Power MOSFETs}}}
+      \field{type}{Application {{Note}}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/44KVBF2P/application_note_en_20180726_AKX00066.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://toshiba.semicon-storage.com/info/application_note_en_20180726_AKX00066.pdf
+      \endverb
+      \verb{url}
+      \verb https://toshiba.semicon-storage.com/info/application_note_en_20180726_AKX00066.pdf
+      \endverb
+    \endentry
+    \entry{wieclawskiElectricCurrentWaveform2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a9cd1905d95f478f5a65dc1178592f85}{%
+           family={Więc{ł}awski},
+           familyi={W\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=58877734f92f0db55ff3c0bf29257d1b}{%
+           family={Mączak},
+           familyi={M\bibinitperiod},
+           given={Jędrzej},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9f885afc40bb3e498f32399cc1bb1e76}{%
+           family={Szczurowski},
+           familyi={S\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b79e2582b95770d64583dd18af9d50e3}
+      \strng{fullhash}{b79e2582b95770d64583dd18af9d50e3}
+      \strng{fullhashraw}{b79e2582b95770d64583dd18af9d50e3}
+      \strng{bibnamehash}{b79e2582b95770d64583dd18af9d50e3}
+      \strng{authorbibnamehash}{b79e2582b95770d64583dd18af9d50e3}
+      \strng{authornamehash}{b79e2582b95770d64583dd18af9d50e3}
+      \strng{authorfullhash}{b79e2582b95770d64583dd18af9d50e3}
+      \strng{authorfullhashraw}{b79e2582b95770d64583dd18af9d50e3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The article discusses the method of evaluation of the fuel injector operation based on the observation of the electric current parameters, which were measured with a current transducer using the Hall effect, during the dosing process. This method relies on comparison of the electric current-related values of the examined injector with the model characteristics, which are representing the properly functioning injector. A model of the fuel injector in the form of the electric current waveform that describes the changes in the electric current and voltage during its work is presented in this article. Complex equations describing the fuel injector model under discussion account for the characteristics of the current variations, with no damage-induced modifications. Due to these, the modeled electric current/voltage waveform mirrors the real conditions. The use of a mathematical model describing the voltage--current phenomena occurring during the injector operation allows determining the actual beginning and duration of the injection. The model can also be used to develop new injector diagnostic methods that can be implemented in the engine controller (ECU).}
+      \field{journaltitle}{Sensors}
+      \field{month}{7}
+      \field{title}{Electric {{Current Waveform}} of the {{Injector}} as a {{Source}} of {{Diagnostic Information}}}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{4151}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s20154151
+      \endverb
+      \verb{file}
+      \verb /home/joseluiz/Zotero/storage/YDEKT4DY/Więcławski et al. - 2020 - Electric Current Waveform of the Injector as a Source of Diagnostic Information.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{bundessumweltministeriumsHaeufigGestellteFragen}
+\endrefsection
+\endinput
+

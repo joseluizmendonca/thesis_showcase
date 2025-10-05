@@ -1,0 +1,111 @@
+% Simple glossary entries for automotive injection systems
+\newacronym{ecu}{ECU}{Engine Control Unit}
+\newacronym{cng}{CNG}{Compressed Natural Gas}
+\newacronym{lpg}{LPG}{Liquefied Petroleum Gas}
+\newacronym{hho}{HHO}{Hydrogen-Hydrogen-Oxygen}
+\newacronym{tps}{TPS}{Throttle Position Sensor}
+\newacronym{map}{MAP}{Manifold Absolute Pressure}
+\newacronym{ice}{ICE}{Internal Combustion Engine}
+\newacronym{oem}{OEM}{Original Equipment Manufacturer}
+\newacronym{afr}{AFR}{Air-Fuel Ratio}
+\newacronym{efi}{EFI}{Electronic Fuel Injection}
+\newacronym{soi}{SOI}{Start of Injection}
+\newacronym{eoi}{EOI}{End of Injection}
+\newacronym{mcu}{MCU}{Microcontroller Unit}
+\newacronym{tvs}{TVS}{Transient Voltage Suppressor}
+\newacronym{wcet}{WCET}{Worst Case Execution Time}
+
+
+\newglossaryentry{hydrocarbon}{
+    name={hydrocarbon},
+    description={A compound consisting primarily of hydrogen and carbon, commonly found in fossil fuels}
+}
+
+\newglossaryentry{stoichiometry}{
+    name={stoichiometry},
+    description={Stoichiometry is the calculation of reactants and products in a balanced chemical reaction }
+}
+
+\newglossaryentry{efuel}{
+    name={E-Fuel},
+    description={synthetic fuels made by the use of electricity produced from water and CO2 \autocite{bundesumweltministeriumsWasSindEFuels}}
+}
+
+\newglossaryentry{alternative_fuel}{
+    name={alternative fuel},
+    description={Conventional fuels predominantly derive from petroleum sources. In contrast, alternative fuels fall into two main categories: biogenic and synthetic. Biogenic variants are produced from plant matter, agricultural residues, and organic waste materials including animal byproducts, collectively known as biofuels. Synthetic alternatives, however, are manufactured through chemical synthesis processes \autocite{bundesumweltministeriumsHaeufigGestellteFragen}}
+}
+
+\newglossaryentry{injector}{
+    name={injector},
+    description={A device that sprays fuel into an internal combustion engine at a precisely controlled timing, duration, and pressure}
+}
+
+\newglossaryentry{ecm}{
+    name={ECM},
+    description={Engine Control Module, the primary computer that controls the operation of an internal combustion engine}
+}
+
+\newglossaryentry{conversion}{
+    name={fuel conversion},
+    description={The process of modifying a vehicle to run on an alternative fuel type while retaining the ability to use the original fuel}
+}
+
+\newglossaryentry{lambda}{
+    name={lambda sensor},
+    description={An oxygen sensor in the exhaust system that measures the air-fuel ratio and provides feedback to the ECU}
+}
+
+\newglossaryentry{injection_pulse_width}{
+    name={injection pulse width},
+    description={The duration of time for which the fuel injector is electrically activated and held open, controlling the amount of fuel delivered to the combustion chamber. It is measured in milliseconds and is directly proportional to the quantity of fuel injected}
+}
+
+\newglossaryentry{rl_circuit}{
+    name={RL circuit},
+    description={An electrical circuit consisting of a resistor (R) and an inductor (L)}
+}
+
+% duty cycle
+\newglossaryentry{duty_cycle}{
+    name={duty cycle},
+    description={The ratio of the time a signal is active (high) to the total time of one cycle, expressed as a percentage. In the context of fuel injection, it refers to the proportion of time the fuel injector is open compared to the total time of the injection cycle}
+}
+
+% definition of time constant
+\newglossaryentry{time_constant}{
+    name={time constant},
+    description={The time that it takes for the voltage or current to rise or fall to approximately 63.2\% of its final value}
+}
+
+% add an entry about avalanche on inductors
+
+\newglossaryentry{avalanche}{
+    name={avalanche},
+    description={A phenomenon in which a sudden increase in voltage across an inductor causes a rapid discharge of energy, often leading to high voltage spikes. This can occur when the current through an inductor is interrupted, and the energy stored in the magnetic field is released}
+}
+
+% entry about hydraulic lock
+\newglossaryentry{hydraulic_lock}{
+    name={hydraulic lock},
+    description={A condition in an internal combustion engine where a cylinder is filled with liquid fuel,
+preventing the piston from moving. This can occur if too much fuel is injected into the cylinder, leading to a situation where the piston cannot compress the liquid, potentially causing mechanical damage}
+}
+
+% entry for atomization
+\newglossaryentry{atomization}{
+    name={atomization},
+    description={The process of breaking down liquid fuel into fine droplets to ensure efficient mixing with air for combustion.}
+}
+
+% entry for deterministic (code of course)
+\newglossaryentry{deterministic}{
+    name={deterministic},
+    description={A system or process that behaves in a predictable manner, where the outcome is determined by initial conditions and parameters, without randomness or uncertainty}
+}
+
+% entry for wasted spark
+\newglossaryentry{wasted_spark}{
+    name={wasted spark},
+    description={A type of ignition system where each spark plug fires twice per engine cycle, once during the compression stroke and once during the exhaust stroke, effectively "wasting" the spark on the exhaust stroke.}
+}

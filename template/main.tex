@@ -1,0 +1,132 @@
+\documentclass[type=bachelor,foot=true,colorhead=true]{rwuthesis} % twoside, BCOR=1cm,
+\usepackage[british]{babel}
+% https://tex.stackexchange.com/questions/282678/why-does-inputenc-abandon-so-quickly-under-utf8-based-engines
+%\usepackage[utf8]{inputenc} % not to use with xelatex
+
+% ============= Dokuinfo =============
+
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{ %https://en.wikibooks.org/wiki/LaTeX/Hyperlinks#Customization
+    colorlinks = true, 
+    breaklinks, %line breaking in a long hyperlink
+    urlcolor=black, %  \url colour
+    linkcolor =black, %  \ref colour
+    citecolor=rwuvioletlight% \cite colour
+}
+
+% ============= Packages =============
+\usepackage{color, url}
+\usepackage{float} %big H
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage{tabularx, multirow, booktabs}
+\usepackage{parcolumns}
+\usepackage{listings}
+\usepackage{pgfplots} % for plotting
+\usepackage{tikz} % for diagrams and flowcharts
+\usetikzlibrary{shapes.geometric, arrows, positioning, fit, backgrounds} % for flowcharts
+
+%%graphics and figures defined image path
+\usepackage{graphicx}
+\graphicspath{ {figures/} }
+\usepackage{caption} %https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+\usepackage{subcaption} % multiple figures with subcaptions
+
+% Bibliography
+\usepackage{csquotes}
+\usepackage{comment}
+\usepackage[ 
+% https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex#Reference_guide
+% https://www.overleaf.com/learn/latex/Natbib_citation_styles
+% https://www.bibtex.com/e/entry-types/
+    backend=biber, % biber backend 
+    sorting=nty, % sort name, title, year
+    style=numeric % https://de.overleaf.com/learn/latex/Biblatex_bibliography_styles
+]{biblatex}
+
+%% \usepackage[style=verbose-ibid,backend=bibtex]{biblatex}
+
+% Glossary package
+\usepackage[automake=immediate]{glossaries}
+\makeglossaries
+
+% Add the bibliography file
+\addbibresource{citations/citations.bib}
+
+% math packages
+% \usepackage{amsfonts}
+% \usepackage{amsmath}
+% \usepackage{amssymb}
+\usepackage{MnSymbol} % Math Symbol Font
+
+% ============= additional settings or packages =============
+\usepackage{lipsum} % random text generator with \lipsum
+
+%% date format in text
+\usepackage[nodayofweek]{datetime}
+\newdateformat{mydate}{\twodigit{\THEDAY}{ }\shortmonthname[\THEMONTH] \THEYEAR}
+
+%% line pitch
+\usepackage[onehalfspacing]{setspace} %singlespacing. onehalf-, double-
+
+% Increase number of captions available
+%https://tex.stackexchange.com/questions/186981/is-there-a-subsubsubsection-command
+
+% Caption of figures/tables continuous
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+% The tocdepth counter decides to which depth down the entries appear in the ToC
+% https://tex.stackexchange.com/questions/291307/how-to-hide-show-section-levels-in-the-table-of-contents
+% \setcounter{secnumdepth}{4}
+% \setcounter{tocdepth}{4}
+% \lstset{numberbychapter=false}
+
+% Document information
+\newcommand{\batitle}{How to write a paper about absolutely nothing}
+
+\title{\batitle}
+\author{Alfonso Torroncho}
+\authormail{randomassemail@email.com}
+\fordegree{Bachelor of nothing, master of nonesense}
+\firstreviewer{Prof. Dr. IDGAF}
+\firstreviewermail{censored}
+\secondreviewer{lipsum}
+\secondreviewermail{censored}
+\degreecourse{Nothingness}
+\faculty{who knows}
+\date{\today}
+\matnumber{123456}
+
+% Input glossary definitions
+\input{glossary.tex}
+
+
+\begin{document}
+\maketitle
+\input{0_statutory_decleration.tex}
+%\makeglossaries
+
+\newpage
+\input{acknowledgements.tex}
+\input{abstract.tex}
+\newpage
+\tableofcontents % Table of contents
+% list of figures
+\listoffigures % List of figures
+\printglossaries  % Print the glossary
+
+\newpage
+\onehalfspacing
+\input{chapter_one.tex}
+
+\sloppy % set sloppy tolerances
+
+% Add a references section with the bibliography
+\newpage
+\printbibliography[heading=bibintoc, title=References]
+\newpage
+\include{ai.tex}
+
+\end{document}

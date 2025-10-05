@@ -1,0 +1,18 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "chapter_one.xdv" "chapter_one.pdf" "chapter_one" 0 -1
+  "chapter_one.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "chapter_one.pdf"
+  (rewritten before read)
+["xelatex"] 1759648261.3338 "/home/joseluiz/personal/github/ba_thesis/thesis/chapter_one.tex" "chapter_one.xdv" "chapter_one" 1759648261.76184 2
+  "/home/joseluiz/personal/github/ba_thesis/thesis/chapter_one.tex" 1759648260.55024 449 f762edf9b549f7f30042dfbc4cf71204 ""
+  "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1710714342 41663 c82a74d8036de408d74af2c8ae75c7e5 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1712653276 10850876 1e25def292bf9f8e5f40af08f28dfb26 ""
+  "/usr/local/texlive/2024/texmf.cnf" 1712653202.15233 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "chapter_one.aux" 1759648261.33223 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "chapter_one.tex" 1759648260.55024 449 f762edf9b549f7f30042dfbc4cf71204 ""
+  (generated)
+  "chapter_one.aux"
+  "chapter_one.log"
+  "chapter_one.xdv"
+  (rewritten before read)

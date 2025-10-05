@@ -1,0 +1,56 @@
+\glsdefs@newdocentry{fondue}%
+{%
+name={fondue},%
+sort={fondue},%
+type={main},%
+first={fondue},%
+firstplural={fondues},%
+text={fondue},%
+plural={fondues},%
+description={is a Swiss dish consisting of melted cheese that is served in a communal pot heated over a portable stove using a candle or a spirit lamp},%
+descriptionplural={is a Swiss dish consisting of melted cheese that is served in a communal pot heated over a portable stove using a candle or a spirit lamp},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{raclette}%
+{%
+name={raclette},%
+sort={raclette},%
+type={main},%
+first={raclette},%
+firstplural={raclettes},%
+text={raclette},%
+plural={raclettes},%
+description={is a Swiss dish that involves heating cheese and scraping off the melted portion and topping it onto meats or vegetables},%
+descriptionplural={is a Swiss dish that involves heating cheese and scraping off the melted portion and topping it onto meats or vegetables},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

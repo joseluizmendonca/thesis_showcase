@@ -1,0 +1,5 @@
+\babel@toc {british}{}\relax 
+\contentsline {chapter}{Declaration of Originality}{2}{section*.1}%
+\contentsline {chapter}{\numberline {1}Abstract}{4}{chapter.1}%
+\contentsline {chapter}{Attachment: Documentation of the Use of AI Tools}{8}{chapter*.5}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

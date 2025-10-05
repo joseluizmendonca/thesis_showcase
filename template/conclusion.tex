@@ -1,0 +1,74 @@
+%% conclusion of the thesis
+
+\chapter{Conclusion}
+    \section{Summary of Key Findings}
+
+        This thesis has demonstrated that fuel mixture control on an EFI motor is achievable through a non-intrusive approach. By intercepting and extending ECU injection signals, the tested prototype provides a practical solution for manipulating fuel injection without extensive modification to the injection system, or \gls{ecu} reprogramming.
+        
+        Testing has confirmed that the peak and hold driver design successfully operates with high impedance injectors. The implementation of digital logic for signal processing and timing control proved to be adequate, offering the necessary precision and flexibility for this application.
+        
+        The predicted relationship between injection pulse width and lambda values was validated through experimental testing, confirming the theoretical foundation of the system's operation. These findings support the viability of the module as a potential solution for alternative fuel adaptation.
+
+    \section{Accomplishment of Requirements}
+
+        The developed system successfully met all primary requirements defined at the start of the project:
+        
+        \begin{itemize}
+            \item \textbf{Peak and Hold operation:} The driver circuit effectively implements the peak and hold current profile necessary for optimal injector operation, providing support for both high impedance injectors and low impedance injectors.
+            
+            \item \textbf{Injection signal detection:} The module reliably detects ECU injection signals across various operating conditions, with appropriate signal conditioning to ensure consistent triggering thresholds.
+            
+            \item \textbf{Real-time pulse width manipulation:} Each individual injection pulse can be extended with precise timing control, allowing for dynamic fuel delivery adjustment.
+            
+            \item \textbf{Non-intrusive installation:} The module integrates between the ECU and the injector driver without requiring modifications to either component, preserving the integrity of the original system.
+            
+            \item \textbf{12V system compatibility:} All circuitry was designed to operate from standard 12V automotive electrical systems, with appropriate voltage regulation and protection.
+            
+            \item \textbf{Power management:} While the current implementation dissipates excess injector power as heat, this represents an area for potential future optimization.
+            
+            \item \textbf{Multi-cylinder support:} The modular design allows for expansion in order to drive multiple cylinders by stacking driver modules.
+            
+            \item \textbf{Parameter flexibility:} All parameters of the module can be configured and changed in real time, which makes tuning the system easier. A front-end interface for the module could be developed to make this process simpler.
+        \end{itemize}
+
+    \section{Limitations and Challenges}
+
+        Despite the successful implementation and tests, the conclusions to be drawn from this project are very limited, mostly due to the measurement limitations and the scope of the tests performed. The limited amount of data collected during the tests prevents further conclusions regarding the performance of the module.
+
+        The module was also only tested on a single motor, so the conclusions drawn from the tests are limited to the Weber motor used in this project. Conjectures can be made about the performance of the module on other motors, but these are not based on any practical tests.
+
+        Also the module itself has several limitations, the most important being:
+        
+        \begin{itemize}
+            \item \textbf{Signal compatibility:} The current design is limited to detecting saturation-type injection pulses and cannot directly interface with peak and hold injection signals from more sophisticated ECUs.
+            
+            \item \textbf{Timing constraints:} The system can only extend injection events by delaying their termination, as there is no mechanism for predicting the start of subsequent pulses, limiting the control strategy options.
+            
+            \item \textbf{Injector capacity limits:} In alternative fuel applications, the stock injectors would likely become a performance bottleneck as their maximum duty cycle is constrained by engine speed. This would result in inadequate fuel delivery at higher loads, ultimately limiting power output without a corresponding injector system upgrade.
+            
+            \item \textbf{E-Fuel validation:} Although theoretically capable of supporting alternative fuels, practical testing with E-Fuels could not be completed due to the unavailability of suitable fuel samples and appropriate fuel system components.
+            
+            \item \textbf{Multi-cylinder validation:} While the design supports multiple cylinders and was validated with signal generators, practical testing was limited to a two-cylinder motor configuration.
+            
+            \item \textbf{Open-loop operation:} All testing was conducted on an engine without lambda feedback control, leaving closed-loop operation performance unverified.
+        \end{itemize}
+
+
+    \section{Outlook}
+
+        Future development of this module should focus on addressing the identified limitations and expanding the system's capabilities:
+        
+        \begin{itemize}
+            \item \textbf{E-Fuel testing:} The next logical step would be testing with alternative fuels under controlled conditions with appropriate load simulation and data logging capabilities. Analysis of combustion characteristics across various load conditions and extended operation would provide critical insights into long-term system viability.
+
+            \item \textbf{Closed-loop control:} Implementation of lambda feedback control would improve the precision of fuel mixture management, increasing flexibility and combustion quality.
+
+            \item \textbf{Advanced control strategies:} Further development could explore predictive algorithms for injection timing, multiple injection events, and integration with additional engine parameters for more sophisticated fuel delivery control.
+            
+            \item \textbf{Hardware optimization:} Future iterations could improve power efficiency through regenerative techniques rather than simply dissipating the ECU power, reducing thermal load and improving overall system efficiency.
+            
+            \item \textbf{Multi-cylinder testing:} Practical validation on engines with higher cylinder counts would confirm the scalability of the approach for more complex applications.
+        \end{itemize}
+        
+        These advancements would address the current limitations while expanding the system's applicability to a wider range of alternative fuel conversion scenarios.
+

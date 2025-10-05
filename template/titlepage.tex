@@ -1,0 +1,155 @@
+\documentclass[type=bachelor,foot=true,colorhead=true]{rwuthesis} % twoside, BCOR=1cm,
+\usepackage[british]{babel}
+% https://tex.stackexchange.com/questions/282678/why-does-inputenc-abandon-so-quickly-under-utf8-based-engines
+%\usepackage[utf8]{inputenc} % not to use with xelatex
+
+% ============= Dokuinfo =============
+
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{ %https://en.wikibooks.org/wiki/LaTeX/Hyperlinks#Customization
+    colorlinks = true, 
+    breaklinks, %line breaking in a long hyperlink
+    urlcolor=black, %  \url colour
+    linkcolor =black, %  \ref colour
+    citecolor=rwuvioletlight% \cite colour
+}
+
+% ============= Packages =============
+\usepackage{color, url}
+\usepackage{float} %big H
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage{tabularx, multirow, booktabs}
+\usepackage{parcolumns}
+\usepackage{listings}
+\usepackage{pgfplots} % for plotting
+\usepackage{tikz} % for diagrams and flowcharts
+\usetikzlibrary{shapes.geometric, arrows, positioning, fit, backgrounds} % for flowcharts
+
+%%graphics and figures defined image path
+\usepackage{graphicx}
+\graphicspath{ {figures/} }
+\usepackage{caption} %https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+\usepackage{subcaption} % multiple figures with subcaptions
+
+% Bibliography
+\usepackage{csquotes}
+\usepackage{comment}
+\usepackage[ 
+% https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex#Reference_guide
+% https://www.overleaf.com/learn/latex/Natbib_citation_styles
+% https://www.bibtex.com/e/entry-types/
+    backend=biber, % biber backend 
+    sorting=nty, % sort name, title, year
+    style=numeric % https://de.overleaf.com/learn/latex/Biblatex_bibliography_styles
+]{biblatex}
+
+%% \usepackage[style=verbose-ibid,backend=bibtex]{biblatex}
+
+% Glossary package
+\usepackage[automake=immediate]{glossaries}
+\makeglossaries
+
+% Add the bibliography file
+\addbibresource{citations/citations.bib}
+
+% math packages
+% \usepackage{amsfonts}
+% \usepackage{amsmath}
+% \usepackage{amssymb}
+\usepackage{MnSymbol} % Math Symbol Font
+
+% ============= additional settings or packages =============
+\usepackage{lipsum} % random text generator with \lipsum
+
+%% date format in text
+\usepackage[nodayofweek]{datetime}
+\newdateformat{mydate}{\twodigit{\THEDAY}{ }\shortmonthname[\THEMONTH] \THEYEAR}
+
+%% line pitch
+\usepackage[onehalfspacing]{setspace} %singlespacing. onehalf-, double-
+
+% Increase number of captions available
+%https://tex.stackexchange.com/questions/186981/is-there-a-subsubsubsection-command
+
+% Caption of figures/tables continuous
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+% The tocdepth counter decides to which depth down the entries appear in the ToC
+% https://tex.stackexchange.com/questions/291307/how-to-hide-show-section-levels-in-the-table-of-contents
+% \setcounter{secnumdepth}{4}
+% \setcounter{tocdepth}{4}
+% \lstset{numberbychapter=false}
+
+% Document information
+\newcommand{\batitle}{Non-Intrusive Injection Control System for
+Alternative Fuel Conversions}
+
+\title{\batitle}
+\author{José Luiz Salles de Mendonça}
+%%\authormail{joseluiz.sallesdemendonca@hs-weingarten.de}
+\fordegree{Bachelor of Engineering}
+\firstreviewer{Prof. Dr. André Kaufmann}
+\secondreviewer{Dipl. Ing. Walter Schildhauer}
+\degreecourse{E-Mobility and Green Energy}
+\faculty{Electrical Engineering and Computer Science}
+% \date{\today}
+% \matnumber{35756}
+
+% Input glossary definitions
+\input{glossary.tex}
+
+\makeatletter
+\renewcommand{\maketitle}{%
+    \begin{titlepage}
+        \sffamily
+        % Top row: logo aligned to the left text border with top offset
+        \vspace*{2cm}
+        \noindent\rwulogo[width=12cm]\par
+
+        \vfill
+
+        % Thesis type
+        \ifthenelse{\equal{\rwuthesis@type}{bachelor}}{%
+            \textbf{\LARGE\GetTranslation{rwuthesis-bachelor-thesis}}%
+        }{%
+            \textbf{\LARGE\GetTranslation{rwuthesis-master-thesis}}%
+        }\par\medskip
+
+        % Title
+        \textbf{\Large\@title}\par
+
+        \vfill
+
+        % % Degree to attain
+        % \GetTranslation{rwuthesis-to-attain}\\
+        % \rwuthesis@fordegree
+
+        % Submitted by + Author
+        %\GetTranslation{rwuthesis-submitted-by}:\par
+        \textbf{\Large\@author}\par
+
+        % After author: degree course and faculty
+        \medskip
+        \GetTranslation{rwuthesis-degree-course}~\rwuthesis@degreecourse\\
+        \GetTranslation{rwuthesis-faculty}~\rwuthesis@faculty\par
+
+        % No date, no email, no matriculation number
+
+        \vspace{0.5cm}
+
+        % Reviewers without email addresses
+        \begin{tabular}{@{ }ll}
+            \GetTranslation{rwuthesis-first-reviewer}: & \rwuthesis@firstreviewer \\
+            \GetTranslation{rwuthesis-second-reviewer}: & \rwuthesis@secondreviewer
+        \end{tabular}
+    \end{titlepage}
+    \cleardoublepage
+}
+\makeatother
+
+\begin{document}
+\maketitle
+\end{document}
