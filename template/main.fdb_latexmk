@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber main"] 1759648452.70126 "main.bcf" "main.bbl" "main" 1759648916.06242 0
+["biber main"] 1759648452.70126 "main.bcf" "main.bbl" "main" 1759649109.52969 0
   "main.bcf" 1759648915.49337 108499 789db5f0ff68236b219e42dfc74bbfaf "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1759648915.63703 "main.xdv" "main.pdf" "main" 1759648916.06731 0
+["xdvipdfmx"] 1759649109.16142 "main.xdv" "main.pdf" "main" 1759649109.53469 0
   "main.xdv" 1759648915.49537 33444 7b18eacb982575cd921c3dc7883dcd2c "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1759648911.54632 "/home/joseluiz/personal/github/thesis_showcase/template/main.tex" "main.xdv" "main" 1759648916.0625 0
+["xelatex"] 1759648911.54632 "main.tex" "main.xdv" "main" 1759649109.52977 0
   "/home/joseluiz/personal/github/thesis_showcase/template/main.tex" 1759648326.41545 3912 d9ce630502f34cb2f76c1a940129aab7 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
