@@ -1,6 +1,6 @@
 # RWU Thesis Template
 
-A LaTeX template for Bachelor's and Master's theses at Ravensburg-Weingarten University (RWU), featuring the official RWU corporate design with Barlow font family and university colors. Based on the latex-rwustyle package.
+A LaTeX template for Bachelor's and Master's theses at Ravensburg-Weingarten University (RWU), featuring the official RWU corporate design with Barlow font family and university colors. Based on the latex-rwustyle package, and the work of Anton Gres.
 
 ## Features
 
