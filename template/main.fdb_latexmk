@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber main"] 1759648452.70126 "main.bcf" "main.bbl" "main" 1759648462.57919 0
-  "main.bcf" 1759648461.99479 108499 789db5f0ff68236b219e42dfc74bbfaf "xelatex"
+["biber main"] 1759648452.70126 "main.bcf" "main.bbl" "main" 1759648916.06242 0
+  "main.bcf" 1759648915.49337 108499 789db5f0ff68236b219e42dfc74bbfaf "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1759648462.14468 "main.xdv" "main.pdf" "main" 1759648462.58378 0
-  "main.xdv" 1759648461.99679 33444 0ed5b23b373dc83a5e975ff12f1b3278 "xelatex"
+["xdvipdfmx"] 1759648915.63703 "main.xdv" "main.pdf" "main" 1759648916.06731 0
+  "main.xdv" 1759648915.49537 33444 7b18eacb982575cd921c3dc7883dcd2c "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1759648457.92962 "/home/joseluiz/personal/github/ba_thesis/thesis/main.tex" "main.xdv" "main" 1759648462.57927 0
-  "/home/joseluiz/personal/github/ba_thesis/thesis/main.tex" 1759648326.41545 3912 d9ce630502f34cb2f76c1a940129aab7 ""
+["xelatex"] 1759648911.54632 "/home/joseluiz/personal/github/thesis_showcase/template/main.tex" "main.xdv" "main" 1759648916.0625 0
+  "/home/joseluiz/personal/github/thesis_showcase/template/main.tex" 1759648326.41545 3912 d9ce630502f34cb2f76c1a940129aab7 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -345,20 +345,20 @@
   "0_statutory_decleration.tex" 1759648139.72371 875 a6ae2bbe5ed2c34efab7d04010cfce3f ""
   "abstract.tex" 1759648444.0949 110 410b512770607cec865e5b3f72feaa10 ""
   "acknowledgements.tex" 1759648377.94182 97 d595a5413f3c08180ebc3e0149b3fcc3 ""
-  "ai.aux" 1759648461.97979 4341 2c22415833d5164d0a96d205657b80c7 "xelatex"
+  "ai.aux" 1759648915.47937 4341 2c22415833d5164d0a96d205657b80c7 "xelatex"
   "ai.tex" 1755773769.62395 822 f2485f01168b7d32fc0a920b9de48eca ""
   "chapter_one.tex" 1759648279.67001 449 f762edf9b549f7f30042dfbc4cf71204 ""
   "glossary.tex" 1755773730.73991 5225 53256e895bc932a6877108c65f151d81 ""
-  "main.aux" 1759648461.98279 1090 a883941294def0e6dc66c915f48ff901 "xelatex"
+  "main.aux" 1759648915.48237 1090 a883941294def0e6dc66c915f48ff901 "xelatex"
   "main.bbl" 1759648453.7684 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.glo" 1759648461.48877 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "main.gls" 1759648461.48677 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.glo" 1759648915.00237 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "main.gls" 1759648915.00037 0 d41d8cd98f00b204e9800998ecf8427e ""
   "main.glsdefs" 1754300650.17695 1316 5a12092288685bd8017b66f37fca7659 ""
-  "main.lof" 1759648461.99679 95 49925c6c7f8f39e14bee51ba9c64222c "xelatex"
-  "main.out" 1759648461.72478 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "main.run.xml" 1759648461.99679 2380 234319ce25215a1354f36d125f7864f2 "xelatex"
+  "main.lof" 1759648915.49537 95 49925c6c7f8f39e14bee51ba9c64222c "xelatex"
+  "main.out" 1759648915.22737 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "main.run.xml" 1759648915.49537 2380 234319ce25215a1354f36d125f7864f2 "xelatex"
   "main.tex" 1759648326.41545 3912 d9ce630502f34cb2f76c1a940129aab7 ""
-  "main.toc" 1759648461.99679 317 97a173634d44c25fc0a1de305369ceb2 "xelatex"
+  "main.toc" 1759648915.49537 317 97a173634d44c25fc0a1de305369ceb2 "xelatex"
   "rwubase.sty" 1754300650.20695 160 e0a6e136128bd47a55a02e77521dbba3 ""
   "rwudefs.sty" 1754300650.20695 544 16ea0fbf1cfb8530af341dbbe57a1974 ""
   "rwufont.sty" 1754300650.20695 1444 5a45df1ee494d232b1da6000b06209ef ""

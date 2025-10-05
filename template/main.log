@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.9)  5 OCT 2025 09:14
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.4.9)  5 OCT 2025 09:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/joseluiz/personal/github/ba_thesis/thesis/main.tex
-(/home/joseluiz/personal/github/ba_thesis/thesis/main.tex
+**/home/joseluiz/personal/github/thesis_showcase/template/main.tex
+(/home/joseluiz/personal/github/thesis_showcase/template/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (./rwuthesis.cls
@@ -1551,11 +1551,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  62336 strings out of 474761
- 1427049 string characters out of 5757510
+ 1427073 string characters out of 5757510
  2634519 words of memory out of 5000000
  83544 multiletter control sequences out of 15000+600000
  571653 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 139i,20n,149p,10999b,3906s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 139i,20n,149p,11007b,3906s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.xdv (8 pages, 33444 bytes).

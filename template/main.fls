@@ -1,8 +1,8 @@
-PWD /home/joseluiz/personal/github/ba_thesis/thesis
+PWD /home/joseluiz/personal/github/thesis_showcase/template
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt
-INPUT /home/joseluiz/personal/github/ba_thesis/thesis/main.tex
+INPUT /home/joseluiz/personal/github/thesis_showcase/template/main.tex
 OUTPUT main.log
 INPUT ./rwuthesis.cls
 INPUT rwuthesis.cls

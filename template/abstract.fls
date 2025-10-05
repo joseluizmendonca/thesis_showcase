@@ -2,5 +2,6 @@ PWD /home/joseluiz/personal/github/thesis_showcase/template
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt
-INPUT 0_statutory_decleration.tex
-OUTPUT 0_statutory_decleration.log
+INPUT abstract.tex
+OUTPUT abstract.log
+OUTPUT abstract.xdv
